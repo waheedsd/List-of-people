@@ -1,6 +1,7 @@
 
 <h3>{{viewtitle}}</h3>
-<form action="/list" method="post" autocomplete="off">
+<form action="list/show" method="post" autocomplete="off">
+    <input type="hidden" name="_id" value="{{list._id}}">
     <div class="form-group">
         <label for="name">Name</label>
             <input type="text" class="form-control" name="Name" placeholder="Enter your Name">
@@ -14,15 +15,16 @@
     <div class="form-group">
         <label for="name">Gender</label>
             <input type="radio" name="Gender" value="male">male
-            <input type="radio" name="Gender" value="female">female 
+            <input type="radio" name="Gender" value="Female">female 
         </label>
     </div>
     <div class="form-group">
         <label for="name">Mobile number</label>
-            <input type="number" class="form-control" name="Mobile Number" placeholder="Enter your Mobile Number">
+            <input type="text" class="form-control" name="mobileNumber" placeholder="Enter your Mobile Number">
         </label>
     </div>
     <div class="form-group">
         <button type="submit" class="btn btn-success">Submit </button>
+        <a href="/list/details" class="btn btn-success">view all</a>
     </div>
 </form>
