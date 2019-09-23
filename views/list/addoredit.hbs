@@ -1,26 +1,26 @@
 
 <h3>{{viewtitle}}</h3>
-<form action="list/show" method="post" autocomplete="off">
+<form action="/list" method="post" autocomplete="off">
     <input type="hidden" name="_id" value="{{list._id}}">
     <div class="form-group">
         <label for="name">Name</label>
-            <input type="text" class="form-control" name="Name" placeholder="Enter your Name">
+            <input type="text" class="form-control" name="Name" required placeholder="Enter your Name" value="{{list.name}}">
         </label>
     </div>
     <div class="form-group">
         <label for="name">Age</label>
-            <input type="number" class="form-control" name="Age" placeholder="Enter your Age">
+            <input type="number" class="form-control" name="Age" required placeholder="Enter your Age" value="{{list.age}}">
         </label>
     </div>
     <div class="form-group">
         <label for="name">Gender</label>
-            <input type="radio" name="Gender" value="male">male
-            <input type="radio" name="Gender" value="Female">female 
+            <input type="radio" name="Gender" value="male {{list.gender}}">male
+            <input type="radio" name="Gender" value="Female {{list.gender}}">female 
         </label>
     </div>
     <div class="form-group">
         <label for="name">Mobile number</label>
-            <input type="text" class="form-control" name="mobileNumber" placeholder="Enter your Mobile Number">
+            <input type="text" class="form-control" name="mobileNumber" required placeholder="Enter your Mobile Number" value="{{list.mobileNumber}}">
         </label>
     </div>
     <div class="form-group">

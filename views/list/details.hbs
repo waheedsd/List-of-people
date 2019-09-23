@@ -17,7 +17,7 @@
             <td>{{this.mobileNumber}}</td>
             <td>
                 <a href="/list/{{this._id}}"><i class="fa fa-pencil-square" aria-hidden="true"></i></a>
-                <a><i class="fa fa-minus-square" aria-hidden="true"></i></a>
+                <a href="/list/delete/{{this._id}}" onclick="return confirm('Deleting record of list!');"><i class="fa fa-minus-square" aria-hidden="true"></i></a>
             </td>
         </tr>
         {{/each}}

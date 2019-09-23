@@ -1,6 +1,7 @@
 const express = require('express');
 var router = express.Router();
 const mongoose = require("mongoose");
+
 const List = mongoose.model('List');
 router.get('/',(req,res)=>{
     res.render("list/addoredit",{
@@ -9,7 +10,13 @@ router.get('/',(req,res)=>{
 })
 
 router.post('/',(req,res)=>{
-    insertRecord(req,res);
+    if(req.body._id == ""){
+        insertRecord(req,res);
+    }
+    else{
+        updateList(req,res);
+    }
+    
 })
 function insertRecord(req,res){ 
     var list = new List();
@@ -19,10 +26,14 @@ function insertRecord(req,res){
     list.mobileNumber = req.body.mobileNumber;
     list.save((err,doc)=>{
         if(!err){
-            res.redirect('list/show');
+            res.redirect('list/details');
+            viewtitle : "Insert List";
+            list : req.body;
+            console.log(list)
         }
         else{
             console.log("Error during insertion"+err);
+            
         }
     })
 }
@@ -40,14 +51,42 @@ router.get('/details',(req,res )=>{
     })
 })
 
+mongoose.set('useFindAndModify', false);
+function updateList(req,res){
+    List.findOneAndUpdate({_id: req.body._id}, req.body,{new:true},(err,docs)=>{
+        if(!err){
+            res.redirect('list/details');
+        }
+        else{
+            console.log("update record"+err);
+        }
+    })
+}
+
 router.get('/:id',(req,res)=>{
     List.findById(req.params.id,(err,doc)=>{
         if(!err){
             res.render("list/addoredit",{
-                viewtitle:"update list",
-                listdetails:doc
-            })
+                viewtitle:"Update list",
+                list:doc
+                
+            });
         }
+        else{
+            console.log(err);
+        }
+        
     });
 });
+
+router.get('/delete/:id',(req,res)=>{
+    List.findByIdAndRemove(req.params._id,(err,doc)=>{
+        if(!err){
+            res.redirect('list/details');
+        }
+        else{
+            console.log("Deleting Record"+err);
+        }
+    })
+})
 module.exports = router;
