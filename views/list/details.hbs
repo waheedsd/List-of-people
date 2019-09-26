@@ -1,0 +1,25 @@
+<h3><a class="btn btn-success" href="/list">Insert Data</a> List of People</h3>
+<table class="table table-striped">
+    <thead>
+        <tr>
+            <th>Name</th>
+            <th>Age</th>
+            <th>Gender</th>
+            <th>Mobile Number</th>
+        </tr>
+    </thead>
+    <tbody>
+        {{#each details}}
+        <tr>
+            <td>{{this.name}}</td>
+            <td>{{this.age}}</td>
+            <td>{{this.gender}}</td>
+            <td>{{this.mobileNumber}}</td>
+            <td>
+                <a href="/list/{{this._id}}"><i class="fa fa-pencil-square" aria-hidden="true"></i></a>
+                <a href="/list/delete/{{this._id}}" onclick="return confirm('Deleting record of list!');"><i class="fa fa-minus-square" aria-hidden="true"></i></a>
+            </td>
+        </tr>
+        {{/each}}
+    </tbody>
+</table>
