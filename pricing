@@ -1,0 +1,366 @@
+<!doctype html>
+<html class="no-js" lang="en">
+   <head>
+      <meta charset="utf-8">
+      <meta http-equiv="x-ua-compatible" content="ie=edge">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      <title>Soprano - The Best Corporate Theme Ever</title>
+      <link rel="stylesheet" href="assets/styles/bootstrap.css">
+      <link rel="stylesheet" href="assets/styles/main.css">
+      <link rel="stylesheet" href="assets/icon-font/css/sp-theme-icons.css">
+   </head>
+   <body>
+      <div id="sp-preloader"></div>
+      <div id="sp-top-scrolling-anchor"></div>
+      <a href="#sp-top-scrolling-anchor" class="sp-scroll-top"><span class="anno-text">Go to top</span> <i class="icon-angle-up"></i></a>
+      <header id="sp-header" class="stuck-slidein">
+         <div class="container-fluid" id="sp-header-inner">
+            <a href="index" class="brand-logo">
+               <h1><span>S</span>oprano</h1>
+            </a>
+            <nav id="sp-primary-nav">
+               <ul class="nav_menu">
+                  <li class="current-menu-item sp-mega-menu mega-3-columns menu-item-has-children">
+                     <a href="index">Home</a>
+                     <ul class="sub-menu">
+                        <li><a href="index">Slider Parallax</a></li>
+                        <li><a href="index_slider">Slider Parallax #2</a></li>
+                        <li><a href="index_image">Image Parallax</a></li>
+                        <li><a href="index_video_one">Fullscreen Video</a></li>
+                        <li><a href="index_video_two">Fullscreen Video #2</a></li>
+                        <li><a href="index_text_rotator">Text Rotator Parallax</a></li>
+                        <li><a href="index_ken_burns">Ken Burns Parallax</a></li>
+                        <li><a href="index_half_screen">Half Screen Parallax</a></li>
+                        <li><a href="index_typing_text">Typing Text Parallax</a></li>
+                        <li><a href="index_architecture_design">Architecture &#038; Design</a></li>
+                        <li><a href="index_business_landing">Business Landing</a></li>
+                        <li><a href="index_creative_agency">Creative Agency</a></li>
+                        <li><a href="index_landing_portfolio">Landing Portfolio</a></li>
+                        <li><a href="index_minimal_corporate">Minimal Corporate</a></li>
+                        <li><a href="index_news_edition">News Edition</a></li>
+                        <li><a href="index_personal_freelancer">Personal &#038; Freelancer</a></li>
+                        <li><a href="index_portfolio_agency">Portfolio &#038; Agency</a></li>
+                        <li><a href="index_standard_landing">Standard Landing</a></li>
+                     </ul>
+                  </li>
+                  <li class="menu-item-has-children sp-mega-menu mega-2-columns">
+                     <a href="#">Pages</a>
+                     <ul class="sub-menu">
+                        <li><a href="about">About Us</a></li>
+                        <li><a href="services">Services</a></li>
+                        <li><a href="contact">Our Contact</a></li>
+                        <li><a href="pricing">Pricing Tables</a></li>
+                        <li><a href="coming_soon_1">Coming Soon #1</a></li>
+                        <li><a href="clients">Lovely Clients</a></li>
+                        <li><a href="faq">F.A.Q</a></li>
+                        <li><a href="404">404 Error</a></li>
+                        <li><a href="blank">Blank Page</a></li>
+                        <li><a href="coming_soon_2">Coming Soon #2</a></li>
+                     </ul>
+                  </li>
+                  <li class="menu-item-has-children">
+                     <a href="#">Portfolio</a>
+                     <ul class="sub-menu">
+                        <li><a href="portfolio_masonry_wide">Wide Masonry Layout</a></li>
+                        <li><a href="portfolio_masonry_fix">Classic Masonry Layout</a></li>
+                        <li><a href="portfolio_4_columns">Fullwidth 4 Columns</a></li>
+                        <li><a href="portfolio_3_columns">Standard 3 Columns</a></li>
+                        <li><a href="portfolio_2_columns">Standard 2 Columns</a></li>
+                        <li class="menu-item-has-children">
+                           <a href="#">Single Portfolio</a>
+                           <ul class="sub-menu">
+                              <li><a href="portfolio_single_gallery">Gallery Format</a></li>
+                              <li><a href="portfolio_single_video">Video Format</a></li>
+                              <li><a href="portfolio_single_classic">Classic Layout</a></li>
+                              <li><a href="portfolio_single_wide">Wide Style</a></li>
+                              <li><a href="portfolio_single_creative">Creative Layout</a></li>
+                           </ul>
+                        </li>
+                     </ul>
+                  </li>
+                  <li class="menu-item-has-children">
+                     <a href="#">Blog</a>
+                     <ul class="sub-menu">
+                        <li class="menu-item-has-children">
+                           <a href="blog_classic_sidebar">Classic Sidebar</a>
+                           <ul class="sub-menu">
+                              <li><a href="blog_classic_left">With Left Sidebar</a></li>
+                           </ul>
+                        </li>
+                        <li class="menu-item-has-children">
+                           <a href="blog_masonry_full">Masonry 3 Columns</a>
+                           <ul class="sub-menu">
+                              <li><a href="blog_masonry_right">With Right Sidebar</a></li>
+                              <li><a href="blog_masonry_left">With Left Sidebar</a></li>
+                           </ul>
+                        </li>
+                        <li class="menu-item-has-children">
+                           <a href="blog_medium_sidebar">Medium Sidebar</a>
+                           <ul class="sub-menu">
+                              <li><a href="blog_medium_left">With Left Sidebar</a></li>
+                           </ul>
+                        </li>
+                        <li><a href="blog_chess_full">Chess Full</a></li>
+                     </ul>
+                  </li>
+                  <li><a href="#">Contacts</a></li>
+                  <li><a href="https://themeforest.net/item/soprano-clean-multiconcept-html5css3-template/21093384?ref=PuzzleThemes">Purchase</a></li>
+               </ul>
+               <a href="#" id="sp-mobile-nav-trigger"><span></span> <span></span> <span></span> <span></span></a>
+            </nav>
+            <div class="header-extras"><a href="#" class="sp-search-icon"><i class="icon-ion-ios-search-strong"></i></a></div>
+         </div>
+      </header>
+      <div id="sp-search-block-container">
+         <div class="search-block-inner">
+            <form role="search" method="get" id="searchform" action=""><input type="text" class="search-input" autocomplete="off" placeholder="Enter keyword..." name="s"> <button type="submit" class="search-btn"><i class="icon-ion-ios-search-strong"></i></button></form>
+         </div>
+         <div class="close-search"><a href="#"><i class="icon-ion-ios-close-empty"></i></a></div>
+      </div>
+      <div id="sp-mobile-nav-container">
+         <div class="overlay-inner-wrap">
+            <nav>
+               <ul class="nav_menu">
+                  <li class="current-menu-item"><a href="#">Home</a></li>
+                  <li class="menu-item-has-children">
+                     <a href="#">Pages</a>
+                     <ul class="sub-menu">
+                        <li><a href="#">Some submenu item</a></li>
+                        <li><a href="#">Some submenu item</a></li>
+                        <li><a href="#">Some submenu item</a></li>
+                     </ul>
+                  </li>
+                  <li class="menu-item-has-children">
+                     <a href="#">Portfolio</a>
+                     <ul class="sub-menu">
+                        <li class="menu-item-has-children">
+                           <a href="#">Some submenu item</a>
+                           <ul class="sub-menu">
+                              <li><a href="#">Some submenu item</a></li>
+                              <li><a href="#">Some submenu item</a></li>
+                              <li><a href="#">Some submenu item</a></li>
+                           </ul>
+                        </li>
+                        <li><a href="#">Some submenu item</a></li>
+                        <li class="menu-item-has-children">
+                           <a href="#">Some submenu item</a>
+                           <ul class="sub-menu">
+                              <li><a href="#">Some submenu item</a></li>
+                              <li><a href="#">Some submenu item</a></li>
+                              <li><a href="#">Some submenu item</a></li>
+                           </ul>
+                        </li>
+                     </ul>
+                  </li>
+                  <li class="menu-item-has-children">
+                     <a href="#">Blog</a>
+                     <ul class="sub-menu">
+                        <li><a href="#">Some submenu item</a></li>
+                        <li><a href="#">Some submenu item</a></li>
+                        <li><a href="#">Some submenu item</a></li>
+                     </ul>
+                  </li>
+                  <li><a href="#">Shop</a></li>
+                  <li><a href="https://themeforest.net/item/soprano-clean-multiconcept-html5css3-template/21093384?ref=PuzzleThemes">Purchase</a></li>
+               </ul>
+            </nav>
+            <div class="sp-soc-icons"><a href="#" title="facebook" target="_blank"><i class="icon-facebook"></i></a> <a href="#" title="twitter" target="_blank"><i class="icon-twitter"></i></a> <a href="#" title="instagram" target="_blank"><i class="icon-instagram"></i></a></div>
+         </div>
+      </div>
+      <div id="sp-mobile-nav-bg"></div>
+
+
+
+           <div id="sp-wrapper">
+         <section class="sp-intro sp-intro-image" style="height: 450px" data-background="assets/images/pricing.jpg">
+            <div class="intro-body">
+               <div class="intro-title intro-title-1 wow fadeInDown" data-wow-duration="1s" data-wow-delay="0.5s">Pricing Tables</div>
+               <div class="intro-title intro-title-3 wow fadeIn" data-wow-duration="1s" data-wow-delay="1s">Sell Your Products</div>
+            </div>
+         </section>
+         <section class="sp-section bg-color-light" id="sp-pricing-tables">
+            <div class="container">
+               <div class="row wow sequenced fx-fadeInUp" data-wow-duration="1s">
+                  <div class="col-lg-4 col-md-6 col-sm-12">
+                     <div class="pricing_tables_wrap">
+                        <div class="pricing_tables_name">Basic</div>
+                        <h2 class="pricing_tables_price"><span>$</span>0</h2>
+                        <div class="pricing_tables_desc">
+                           <ul>
+                              <li>Basic Support</li>
+                              <li>1 Domain</li>
+                              <li>128 MB Storage</li>
+                              <li>Lite MXPanel</li>
+                           </ul>
+                        </div>
+                        <div class="pricing_tables_buttons"><a href="#" class="btn btn-primary">Get Started</a></div>
+                     </div>
+                  </div>
+                  <div class="col-lg-4 col-md-6 col-sm-12">
+                     <div class="pricing_tables_wrap featured">
+                        <div class="pricing_tables_name">Business</div>
+                        <h2 class="pricing_tables_price"><span>$</span>39<i>/ mth</i></h2>
+                        <div class="pricing_tables_desc">
+                           <ul>
+                              <li>Extented Support</li>
+                              <li>3 Domains</li>
+                              <li>512 MB Storage</li>
+                              <li>Pro MXPanel</li>
+                           </ul>
+                        </div>
+                        <div class="pricing_tables_buttons">
+                           <div class="btn-group"><a href="#" class="btn btn-outline-primary">Try Trial</a> <a href="#" class="btn btn-outline-primary">Get Started</a></div>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="col-lg-4 col-md-6 col-sm-12">
+                     <div class="pricing_tables_wrap">
+                        <div class="pricing_tables_name">Premium</div>
+                        <h2 class="pricing_tables_price"><span>$</span>99<i>/ mth</i></h2>
+                        <div class="pricing_tables_desc">
+                           <ul>
+                              <li>24/7 Tech Support</li>
+                              <li>Unlimited Domains</li>
+                              <li>3 GB Storage</li>
+                              <li>Maximum MXPanel</li>
+                           </ul>
+                        </div>
+                        <div class="pricing_tables_buttons"><a href="#" class="btn btn-primary">Get Started</a></div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </section>
+         <section class="sp-section little" id="sp-pricing-tables-faq">
+            <div class="container">
+               <div class="row">
+                  <div class="col-md-6 col-sm-12">
+                     <h4>How Do I Sign Up?</h4>
+                     <p>Less at and fired one lent that panda intimate boomed however crud truculently up yikes salmon goodness that the one the a.</p>
+                     <h4>Do I Need Another Web Host?</h4>
+                     <p>Roadrunner unspeakably while essentially partook and vibrantly seagull gosh one shed some ladybug yikes yet far truthful.<br><br>Yikes shark some at gosh one more resold conditionally beheld drank much inaudible woodpecker bit beyond monstrous but earnestly weasel.</p>
+                     <h4>Can I Switch Plans?</h4>
+                     <p>Yikes shark some at gosh one more resold conditionally beheld drank much inaudible woodpecker bit beyond monstrous but earnestly weasel.</p>
+                     <h4>Do You Offer Student Pricing?</h4>
+                     <p>Toward like and much wow wisely hound gosh ouch forward well apart following jeez swelled a hey a house goodness on globefish far.</p>
+                  </div>
+                  <div class="col-md-6 col-sm-12">
+                     <h4>How Long Are Your Contracts?</h4>
+                     <p>Less at and fired one lent that panda intimate boomed however crud truculently up yikes salmon goodness that the one the a.<br><br>Struck boastfully and jeez childishly woodpecker so and oh this one mumbled curiously one ambitious turtle thirsty jeepers winning.</p>
+                     <h4>How Do I Cancel Service?</h4>
+                     <p>Struck boastfully and jeez childishly woodpecker so and oh this one mumbled curiously one ambitious turtle thirsty jeepers winning.<br><br>Gratis, brevis luras nunquam gratia de dexter.</p>
+                     <h4>Have More Questions?</h4>
+                     <p>Sensorem, luba, et accentor. Vae, rusticus planeta! Sunt imberes tractare bassus, pius demolitionees. Cum solitudo cantare, omnes luraes vitare salvus, gratis ionicis tormentoes.<br><br>Nixs nocere in tubinga! A falsis, amicitia pius armarium. Germanus, gratis fermiums cito resuscitabo de dexter, pius urbs.</p>
+                  </div>
+               </div>
+            </div>
+         </section>
+         <section class="sp-section little bg-color-light text-center" id="sp-feedbacks">
+            <div class="container">
+               <div class="row">
+                  <div class="sp-title-block">
+                     <h3 class="mb-0">What our clients say</h3>
+                  </div>
+                  <div class="col-md-8 offset-md-2">
+                     <div class="sp-slick-testimonials">
+                        <div class="item">
+                           <div class="sp-testimonials-block">
+                              <div class="text">Menacing while awakened so caustic wow dim yet reset hello fidgeted fox about far much more in through until pending began outside shortsighted far indescribable a gecko supremely hid timorously one some woolly reciprocatingly thrust the therefore foul fiendishly bluntly tamarin on narrow glowered lubber alas far one and taut after swept far sweeping buffalo gosh swam.</div>
+                              <div class="photo"><img src="assets/images/mike.png" alt=""></div>
+                              <h6 class="name">Rodger - Google Inc.</h6>
+                           </div>
+                        </div>
+                        <div class="item">
+                           <div class="sp-testimonials-block">
+                              <div class="text">Other picked sang guinea gasped one greyhound far sniffed a censorious this much under impotently apart however rancorously swept alas forward yikes forbiddingly far one lobster so less therefore however one agitatedly precariously and crud proud underneath.</div>
+                              <div class="photo"><img src="assets/images/mila.png" alt=""></div>
+                              <h6 class="name">Julia - Yandex Inc.</h6>
+                           </div>
+                        </div>
+                        <div class="item">
+                           <div class="sp-testimonials-block">
+                              <div class="text">Darn toward jeepers some but much haggard prior made one chuckled intellectually macaw giraffe until tonelessly according far hello much oh selfless firmly when to where tryingly from became sighed steady ouch more scooped abominable sensibly one inside under besides far monkey parrot.</div>
+                              <div class="photo"><img src="assets/images/mike.jpg" alt=""></div>
+                              <h6 class="name">Mike - Uber Inc.</h6>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </section>
+      </div>
+
+  
+      <footer id="sp-footer" class="sp-footer-fixed">
+         <div class="sp-main-footer">
+            <div class="container">
+               <div class="row">
+                  <div class="col-lg-4 col-md-6 col-xs-12">
+                     <div class="title-block">
+                        <h4>Some Info</h4>
+                     </div>
+                     <div class="text-block">Greatly hearted has who believe. Drift allow son green walls years for blush. Sir margaret drawings repeated recurred exercise laughing may you. Sitting mistake towards his few country ask.</div>
+                     <div class="soclink-block">
+                        <ul>
+                           <li><a href="#"><i class="icon-facebook"></i></a></li>
+                           <li><a href="#"><i class="icon-twitter"></i></a></li>
+                           <li><a href="#"><i class="icon-instagram"></i></a></li>
+                           <li><a href="#"><i class="icon-pinterest"></i></a></li>
+                        </ul>
+                     </div>
+                  </div>
+                  <div class="col-lg-4 col-md-6 col-xs-12">
+                     <div class="title-block">
+                        <h4>Our Twitter Feed</h4>
+                     </div>
+                     <div class="twitter-block">
+                        <ul>
+                           <li>WOW! I got it! It's awesome day, new level on my carrer! I will WordPress developer on Envato! <a href="#">#happy</a></li>
+                           <li><a href="#">@envato_help</a> please help with solve my request about money. Thank you! <a href="#">#support</a>, <a href="#">#tired</a></li>
+                        </ul>
+                     </div>
+                  </div>
+                  <div class="col-lg-4 col-md-6 col-xs-12">
+                     <div class="title-block">
+                        <h4>Instagram Gallery</h4>
+                     </div>
+                     <div class="instagram-block">
+                        <ul>
+                           <li><a href="#" style="background-image:url(https://instagram.fiev12-1.fna.fbcdn.net/vp/aa99e5d34680359ecffeef673b11d2c3/5B578EB0/t51.2885-15/s640x640/sh0.08/e35/30605122_2057151524541388_5430722696793030656_n.jpg);"></a></li>
+                           <li><a href="#" style="background-image:url(https://instagram.fiev12-1.fna.fbcdn.net/vp/608732ffaadb6879cd193c4c21b57168/5B6D3756/t51.2885-15/s640x640/sh0.08/e35/30085540_1027556847396987_8180441672581120000_n.jpg);"></a></li>
+                           <li><a href="#" style="background-image:url(https://instagram.fiev12-1.fna.fbcdn.net/vp/9d93864472650d7eeac06a9cd46a426b/5B5868F4/t51.2885-15/sh0.08/e35/p640x640/30829938_2062763674049581_8566444208972365824_n.jpg);"></a></li>
+                           <li><a href="#" style="background-image:url(https://instagram.fiev12-1.fna.fbcdn.net/vp/5db38ec87cfc14ca28e1a62593ae80b8/5B62D0AF/t51.2885-15/s640x640/sh0.08/e35/29739420_319191928607800_1790432764596584448_n.jpg);"></a></li>
+                           <li><a href="#" style="background-image:url(https://instagram.fiev12-1.fna.fbcdn.net/vp/26d3d563dc8a67c2e500f5ffc9504196/5B641A19/t51.2885-15/s640x640/sh0.08/e35/29400537_155191268639439_8179183376012410880_n.jpg);"></a></li>
+                           <li><a href="#" style="background-image:url(https://instagram.fiev12-1.fna.fbcdn.net/vp/54e48997d501853c6b8e0d29965947ee/5B552284/t51.2885-15/sh0.08/e35/p640x640/30077730_315384555654792_457247604221149184_n.jpg);"></a></li>
+                           <li><a href="#" style="background-image:url(https://instagram.fiev12-1.fna.fbcdn.net/vp/d5978ef85826a533a58e344ecde40d5e/5B558637/t51.2885-15/s640x640/sh0.08/e35/29090050_198781380724806_2398283822253735936_n.jpg);"></a></li>
+                           <li><a href="#" style="background-image:url(https://instagram.fiev12-1.fna.fbcdn.net/vp/260379c3190cf8af75e9da060917fb7d/5B6D19FA/t51.2885-15/s640x640/sh0.08/e35/28429673_1275617889237212_6835722085474500608_n.jpg);"></a></li>
+                        </ul>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <div class="sp-end-footer">
+            <div class="container">
+               <div class="end-footer-block">© 2018 Soprano by <a href="https://themeforest.net/user/puzzlethemes">PuzzleThemes</a>. All rights reserved.</div>
+               <div class="end-footer-block menu-block">
+                  <ul>
+                     <li><a href="index">Home</a></li>
+                     <li><a href="about">About Us</a></li>
+                     <li><a href="portfolio">Portfolio</a></li>
+                     <li><a href="https://themeforest.net/item/soprano-clean-multiconcept-html5css3-template/21093384?ref=PuzzleThemes">Purchase</a></li>
+                  </ul>
+               </div>
+            </div>
+         </div>
+      </footer>
+      <div id="sp-footer-sizing-helper"></div>
+      <script>var SOPRANO_FONTS = [
+         'Montserrat:400,400i,500,500i,600,600i,700,700i',
+         'Source Sans Pro:300,300i,400,400i,600,600i,700,700i',
+         'Shadows Into Light:400'
+         ];
+      </script><script src="assets/scripts/__jquery.js"></script><script src="assets/scripts/_modernizr.js"></script><script src="assets/scripts/assets.js"></script><script src="assets/scripts/bootstrap.js"></script><script src="assets/scripts/controllers.js"></script>
+   </body>
+</html>
